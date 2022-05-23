@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 226px;
+  height: 337px;
+  background: #ffecbb;
+}
+
+.container__window {
+  width: 59px;
+  height: 65px;
+  background: #84f9c1;
+}
+
+.third-floor {
+  display: flex;
+  gap: 48px;
+  padding-top: 29px;
+}
+
+.second-floor {
+  display: flex;
+  gap: 48px;
+  padding-top: 35px;
+}
+
+.window-1,
+.window-3 {
+  margin-left: 25px;
+}
+
+.first-floor {
+  display: flex;
+  gap: 42px;
+}
+
+.window-5 {
+  margin: 35px 0 43px 25px;
+}
+
+.container__door {
+  width: 57px;
+  height: 81px;
+  margin-top: 62px;
+}
